@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="stay_a_long_way_mouth.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="miyaMouth0000" x="0" y="0" width="44" height="24"/>
+	<SubTexture name="miyaMouth0001" x="0" y="0" width="44" height="24"/>
+	<SubTexture name="miyaMouth0002" x="44" y="0" width="44" height="24"/>
+	<SubTexture name="miyaMouth0003" x="44" y="0" width="44" height="24"/>
+	<SubTexture name="miyaMouth0004" x="88" y="0" width="44" height="24"/>
+	<SubTexture name="miyaMouth0005" x="88" y="0" width="44" height="24"/>
+	<SubTexture name="miyaMouth0006" x="88" y="0" width="44" height="24"/>
+	<SubTexture name="miyaMouth0007" x="132" y="0" width="44" height="24"/>
+	<SubTexture name="miyaMouth0008" x="132" y="0" width="44" height="24"/>
+	<SubTexture name="miyaMouth0009" x="0" y="24" width="44" height="24"/>
+	<SubTexture name="miyaMouth0010" x="0" y="24" width="44" height="24"/>
+	<SubTexture name="miyaMouth0011" x="44" y="24" width="44" height="24"/>
+	<SubTexture name="miyaMouth0012" x="88" y="24" width="44" height="24"/>
+	<SubTexture name="miyaMouth0013" x="132" y="24" width="44" height="24"/>
+	<SubTexture name="miyaMouth0014" x="132" y="24" width="44" height="24"/>
+	<SubTexture name="miyaMouth0015" x="0" y="48" width="44" height="24"/>
+	<SubTexture name="miyaMouth0016" x="0" y="48" width="44" height="24"/>
+	<SubTexture name="miyaMouth0017" x="44" y="48" width="44" height="24"/>
+	<SubTexture name="miyaMouth0018" x="44" y="48" width="44" height="24"/>
+	<SubTexture name="miyaMouth0019" x="88" y="48" width="44" height="24"/>
+	<SubTexture name="miyaMouth0020" x="88" y="48" width="44" height="24"/>
+	<SubTexture name="miyaMouth0021" x="0" y="24" width="44" height="24"/>
+	<SubTexture name="miyaMouth0022" x="0" y="24" width="44" height="24"/>
+	<SubTexture name="miyaMouth0023" x="44" y="24" width="44" height="24"/>
+	<SubTexture name="miyaMouth0024" x="132" y="48" width="44" height="24"/>
+	<SubTexture name="miyaMouth0025" x="132" y="48" width="44" height="24"/>
+	<SubTexture name="miyaMouth0026" x="132" y="48" width="44" height="24"/>
+	<SubTexture name="miyaMouth0027" x="132" y="48" width="44" height="24"/>
+	<SubTexture name="miyaMouth0028" x="132" y="48" width="44" height="24"/>
+	<SubTexture name="miyaMouth0029" x="132" y="48" width="44" height="24"/>
+	<SubTexture name="miyaMouth0030" x="132" y="48" width="44" height="24"/>
+	<SubTexture name="miyaMouth0031" x="132" y="48" width="44" height="24"/>
+	<SubTexture name="miyaMouth0032" x="132" y="48" width="44" height="24"/>
+	<SubTexture name="miyaMouth0033" x="132" y="48" width="44" height="24"/>
+	<SubTexture name="miyaMouth0034" x="132" y="48" width="44" height="24"/>
+	<SubTexture name="miyaMouth0035" x="132" y="48" width="44" height="24"/>
+	<SubTexture name="miyaMouth0036" x="132" y="48" width="44" height="24"/>
+	<SubTexture name="miyaMouth0037" x="132" y="48" width="44" height="24"/>
+	<SubTexture name="miyaMouth0038" x="132" y="48" width="44" height="24"/>
+	<SubTexture name="miyaMouth0039" x="132" y="48" width="44" height="24"/>
+</TextureAtlas>

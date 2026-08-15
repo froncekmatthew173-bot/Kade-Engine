@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="cubos.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="idles0000" x="20" y="20" width="1171" height="432"/>
+	<SubTexture name="idles0001" x="20" y="20" width="1171" height="432"/>
+	<SubTexture name="idles0002" x="20" y="20" width="1171" height="432"/>
+	<SubTexture name="idles0003" x="1211" y="20" width="1171" height="432"/>
+	<SubTexture name="idles0004" x="1211" y="20" width="1171" height="432"/>
+	<SubTexture name="idles0005" x="1211" y="20" width="1171" height="432"/>
+	<SubTexture name="idles0006" x="2402" y="20" width="1171" height="432"/>
+	<SubTexture name="idles0007" x="2402" y="20" width="1171" height="432"/>
+	<SubTexture name="idles0008" x="2402" y="20" width="1171" height="432"/>
+	<SubTexture name="idles0009" x="20" y="472" width="1171" height="432"/>
+	<SubTexture name="idles0010" x="20" y="472" width="1171" height="432"/>
+	<SubTexture name="idles0011" x="20" y="472" width="1171" height="432"/>
+	<SubTexture name="idles0012" x="1211" y="472" width="1171" height="432"/>
+	<SubTexture name="idles0013" x="1211" y="472" width="1171" height="432"/>
+	<SubTexture name="idles0014" x="1211" y="472" width="1171" height="432"/>
+	<SubTexture name="idles0015" x="2402" y="472" width="1171" height="432"/>
+	<SubTexture name="idles0016" x="2402" y="472" width="1171" height="432"/>
+	<SubTexture name="idles0017" x="2402" y="472" width="1171" height="432"/>
+	<SubTexture name="idles0018" x="20" y="924" width="1171" height="432"/>
+	<SubTexture name="idles0019" x="20" y="924" width="1171" height="432"/>
+	<SubTexture name="idles0020" x="20" y="924" width="1171" height="432"/>
+	<SubTexture name="idles0021" x="1211" y="924" width="1171" height="432"/>
+	<SubTexture name="idles0022" x="1211" y="924" width="1171" height="432"/>
+	<SubTexture name="idles0023" x="1211" y="924" width="1171" height="432"/>
+	<SubTexture name="idles0024" x="2402" y="924" width="1171" height="432"/>
+	<SubTexture name="idles0025" x="2402" y="924" width="1171" height="432"/>
+	<SubTexture name="idles0026" x="2402" y="924" width="1171" height="432"/>
+	<SubTexture name="idles0027" x="20" y="1376" width="1171" height="432"/>
+	<SubTexture name="idles0028" x="20" y="1376" width="1171" height="432"/>
+	<SubTexture name="idles0029" x="20" y="1376" width="1171" height="432"/>
+	<SubTexture name="idles0030" x="1211" y="1376" width="1171" height="432"/>
+	<SubTexture name="idles0031" x="1211" y="1376" width="1171" height="432"/>
+	<SubTexture name="idles0032" x="1211" y="1376" width="1171" height="432"/>
+	<SubTexture name="idles0033" x="2402" y="1376" width="1171" height="432"/>
+	<SubTexture name="idles0034" x="2402" y="1376" width="1171" height="432"/>
+	<SubTexture name="idles0035" x="2402" y="1376" width="1171" height="432"/>
+	<SubTexture name="idles0036" x="20" y="1828" width="1171" height="432"/>
+	<SubTexture name="idles0037" x="20" y="1828" width="1171" height="432"/>
+	<SubTexture name="idles0038" x="20" y="1828" width="1171" height="432"/>
+	<SubTexture name="idles0039" x="1211" y="1828" width="1171" height="432"/>
+	<SubTexture name="idles0040" x="1211" y="1828" width="1171" height="432"/>
+	<SubTexture name="idles0041" x="1211" y="1828" width="1171" height="432"/>
+	<SubTexture name="idles0042" x="2402" y="1828" width="1171" height="432"/>
+	<SubTexture name="idles0043" x="2402" y="1828" width="1171" height="432"/>
+	<SubTexture name="idles0044" x="2402" y="1828" width="1171" height="432"/>
+</TextureAtlas>

@@ -1,0 +1,38 @@
+{
+	"name": "Richard",
+	"asset": "bgs/musical/characters/richard",
+	"startingAnim": "idle",
+	"barColor": "0xFF8844AA",
+	"animations": [
+		{
+			"name": "idle",
+			"prefix": "idle",
+			"frameRate": 24,
+			"offsets": [473, 244]
+		},
+		{
+			"name": "singLEFT",
+			"prefix": "singLEFT",
+			"frameRate": 24,
+			"offsets": [0, 0]
+		},
+		{
+			"name": "singDOWN",
+			"prefix": "singDOWN",
+			"frameRate": 24,
+			"offsets": [0, 0]
+		},
+		{
+			"name": "singUP",
+			"prefix": "singUP",
+			"frameRate": 24,
+			"offsets": [0, 0]
+		},
+		{
+			"name": "singRIGHT",
+			"prefix": "singRIGHT",
+			"frameRate": 24,
+			"offsets": [0, 0]
+		}
+	]
+}

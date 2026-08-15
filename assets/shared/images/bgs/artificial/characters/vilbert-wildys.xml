@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="vilbert-wildy.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ete0000" x="0" y="0" width="151" height="195"/>
+	<SubTexture name="ete0001" x="0" y="0" width="151" height="195"/>
+	<SubTexture name="ete0002" x="0" y="0" width="151" height="195"/>
+	<SubTexture name="ete0003" x="0" y="0" width="151" height="195"/>
+	<SubTexture name="ete0004" x="0" y="0" width="151" height="195"/>
+	<SubTexture name="ete0005" x="0" y="0" width="151" height="195"/>
+	<SubTexture name="ete0006" x="0" y="0" width="151" height="195"/>
+	<SubTexture name="ete0007" x="0" y="0" width="151" height="195"/>
+	<SubTexture name="ete0008" x="0" y="0" width="151" height="195"/>
+	<SubTexture name="ete0009" x="0" y="0" width="151" height="195"/>
+	<SubTexture name="ete0010" x="0" y="0" width="151" height="195"/>
+	<SubTexture name="ete0011" x="0" y="0" width="151" height="195"/>
+	<SubTexture name="ete0012" x="0" y="0" width="151" height="195"/>
+	<SubTexture name="ete0013" x="0" y="0" width="151" height="195"/>
+	<SubTexture name="ete0014" x="0" y="0" width="151" height="195"/>
+	<SubTexture name="ete0015" x="0" y="0" width="151" height="195"/>
+	<SubTexture name="ete0016" x="0" y="0" width="151" height="195"/>
+	<SubTexture name="ete0017" x="0" y="0" width="151" height="195"/>
+	<SubTexture name="ete0018" x="0" y="0" width="151" height="195"/>
+	<SubTexture name="ete0019" x="0" y="0" width="151" height="195"/>
+	<SubTexture name="ete0020" x="0" y="0" width="151" height="195"/>
+	<SubTexture name="ete0021" x="0" y="0" width="151" height="195"/>
+	<SubTexture name="ete0022" x="0" y="0" width="151" height="195"/>
+	<SubTexture name="ete0023" x="0" y="0" width="151" height="195"/>
+	<SubTexture name="ete0024" x="0" y="0" width="151" height="195"/>
+	<SubTexture name="ete0025" x="0" y="0" width="151" height="195"/>
+	<SubTexture name="ete0026" x="151" y="0" width="151" height="195"/>
+	<SubTexture name="ete0027" x="151" y="0" width="151" height="195"/>
+	<SubTexture name="ete0028" x="302" y="0" width="151" height="195"/>
+	<SubTexture name="ete0029" x="302" y="0" width="151" height="195"/>
+	<SubTexture name="ete0030" x="0" y="195" width="151" height="195"/>
+	<SubTexture name="ete0031" x="0" y="195" width="151" height="195"/>
+	<SubTexture name="ete0032" x="151" y="195" width="151" height="195"/>
+	<SubTexture name="ete0033" x="151" y="195" width="151" height="195"/>
+	<SubTexture name="ete0034" x="151" y="195" width="151" height="195"/>
+	<SubTexture name="idle0000" x="302" y="195" width="151" height="195"/>
+	<SubTexture name="idle0001" x="0" y="390" width="151" height="195"/>
+</TextureAtlas>

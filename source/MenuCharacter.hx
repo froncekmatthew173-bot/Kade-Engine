@@ -30,7 +30,23 @@ class MenuCharacter extends FlxSprite
 		'pico' => new CharacterSetting(0, 0, 1.0, true),
 		'mom' => new CharacterSetting(-30, 140, 0.85),
 		'parents-christmas' => new CharacterSetting(100, 130, 1.8),
-		'senpai' => new CharacterSetting(-40, -45, 1.4)
+		'senpai' => new CharacterSetting(-40, -45, 1.4),
+		// Custom characters from decompiled binary
+		'splingo' => new CharacterSetting(-10, 50, 1.2),
+		'theDerelict' => new CharacterSetting(-20, 60, 1.3),
+		'garretson' => new CharacterSetting(-15, 40, 1.1),
+		'vilbert' => new CharacterSetting(-10, 50, 1.1),
+		'maldo' => new CharacterSetting(-10, 50, 1.1),
+		'carl' => new CharacterSetting(-10, 50, 1.1),
+		'primo' => new CharacterSetting(-10, 40, 1.2),
+		'richard' => new CharacterSetting(-15, 55, 1.1),
+		'play' => new CharacterSetting(-10, 60, 1.0),
+		'mrDoYou' => new CharacterSetting(-10, 50, 1.1),
+		'sarah' => new CharacterSetting(-10, 40, 1.0),
+		'miya' => new CharacterSetting(-10, 40, 1.0),
+		'newsman' => new CharacterSetting(-10, 50, 1.1),
+		'atrocious' => new CharacterSetting(-15, 60, 1.2),
+		'davepizza' => new CharacterSetting(-10, 50, 1.1)
 	];
 
 	private var flipped:Bool = false;

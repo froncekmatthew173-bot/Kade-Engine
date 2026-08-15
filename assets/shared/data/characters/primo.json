@@ -1,0 +1,44 @@
+{
+	"name": "Primo",
+	"asset": "bgs/chortle/prima/prima",
+	"startingAnim": "idle",
+	"barColor": "0xFFFF69B4",
+	"animations": [
+		{
+			"name": "idle",
+			"prefix": "idle",
+			"frameRate": 24,
+			"offsets": [0, 0]
+		},
+		{
+			"name": "singLEFT",
+			"prefix": "singLEFT",
+			"frameRate": 24,
+			"offsets": [0, 0]
+		},
+		{
+			"name": "singDOWN",
+			"prefix": "singDOWN",
+			"frameRate": 24,
+			"offsets": [0, 0]
+		},
+		{
+			"name": "singUP",
+			"prefix": "singUP",
+			"frameRate": 24,
+			"offsets": [0, 0]
+		},
+		{
+			"name": "singRIGHT",
+			"prefix": "singRIGHT",
+			"frameRate": 24,
+			"offsets": [0, 0]
+		},
+		{
+			"name": "primoTalk",
+			"prefix": "primoTalk",
+			"frameRate": 24,
+			"offsets": [0, 0]
+		}
+	]
+}

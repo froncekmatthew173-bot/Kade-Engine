@@ -1,0 +1,62 @@
+{
+	"name": "Garretson",
+	"asset": "bgs/musical/characters/garretson",
+	"startingAnim": "idle",
+	"barColor": "0xFFC8A2C8",
+	"animations": [
+		{
+			"name": "idle",
+			"prefix": "idle",
+			"frameRate": 24,
+			"offsets": [146, 240]
+		},
+		{
+			"name": "singLEFT",
+			"prefix": "singLEFT",
+			"frameRate": 24,
+			"offsets": [0, 0]
+		},
+		{
+			"name": "singDOWN",
+			"prefix": "singDOWN",
+			"frameRate": 24,
+			"offsets": [0, 0]
+		},
+		{
+			"name": "singUP",
+			"prefix": "singUP",
+			"frameRate": 24,
+			"offsets": [0, 0]
+		},
+		{
+			"name": "singRIGHT",
+			"prefix": "singRIGHT",
+			"frameRate": 24,
+			"offsets": [0, 0]
+		},
+		{
+			"name": "singLEFTmiss",
+			"prefix": "singLEFTmiss",
+			"frameRate": 24,
+			"offsets": [0, 0]
+		},
+		{
+			"name": "singDOWNmiss",
+			"prefix": "singDOWNmiss",
+			"frameRate": 24,
+			"offsets": [0, 0]
+		},
+		{
+			"name": "singUPmiss",
+			"prefix": "singUPmiss",
+			"frameRate": 24,
+			"offsets": [0, 0]
+		},
+		{
+			"name": "singRIGHTmiss",
+			"prefix": "singRIGHTmiss",
+			"frameRate": 24,
+			"offsets": [0, 0]
+		}
+	]
+}

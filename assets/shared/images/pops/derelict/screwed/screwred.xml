@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="screwred.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="animation10000" x="5" y="5" width="185" height="273"/>
+	<SubTexture name="animation10001" x="5" y="5" width="185" height="273"/>
+	<SubTexture name="animation10002" x="5" y="5" width="185" height="273"/>
+	<SubTexture name="animation10003" x="195" y="5" width="185" height="273"/>
+	<SubTexture name="animation10004" x="195" y="5" width="185" height="273"/>
+	<SubTexture name="animation10005" x="385" y="5" width="185" height="273"/>
+	<SubTexture name="animation10006" x="385" y="5" width="185" height="273"/>
+	<SubTexture name="animation10007" x="575" y="5" width="185" height="273"/>
+	<SubTexture name="animation10008" x="575" y="5" width="185" height="273"/>
+	<SubTexture name="animation10009" x="765" y="5" width="185" height="273"/>
+	<SubTexture name="animation10010" x="765" y="5" width="185" height="273"/>
+	<SubTexture name="animation10011" x="955" y="5" width="185" height="273"/>
+	<SubTexture name="animation10012" x="955" y="5" width="185" height="273"/>
+	<SubTexture name="animation10013" x="1145" y="5" width="185" height="273"/>
+	<SubTexture name="animation10014" x="1145" y="5" width="185" height="273"/>
+	<SubTexture name="animation10015" x="1145" y="5" width="185" height="273"/>
+	<SubTexture name="animation10016" x="1145" y="5" width="185" height="273"/>
+	<SubTexture name="animation10017" x="1145" y="5" width="185" height="273"/>
+	<SubTexture name="animation10018" x="1145" y="5" width="185" height="273"/>
+	<SubTexture name="animation10019" x="1145" y="5" width="185" height="273"/>
+	<SubTexture name="animation10020" x="1145" y="5" width="185" height="273"/>
+	<SubTexture name="animation10021" x="1145" y="5" width="185" height="273"/>
+	<SubTexture name="animation10022" x="5" y="283" width="185" height="273"/>
+	<SubTexture name="animation10023" x="5" y="283" width="185" height="273"/>
+	<SubTexture name="animation10024" x="195" y="283" width="185" height="273"/>
+	<SubTexture name="animation10025" x="195" y="283" width="185" height="273"/>
+	<SubTexture name="animation10026" x="195" y="283" width="185" height="273"/>
+	<SubTexture name="animation10027" x="195" y="283" width="185" height="273"/>
+	<SubTexture name="animation10028" x="195" y="283" width="185" height="273"/>
+	<SubTexture name="animation10029" x="385" y="283" width="185" height="273"/>
+	<SubTexture name="animation10030" x="385" y="283" width="185" height="273"/>
+	<SubTexture name="animation10031" x="575" y="283" width="185" height="273"/>
+	<SubTexture name="animation10032" x="575" y="283" width="185" height="273"/>
+	<SubTexture name="animation10033" x="765" y="283" width="185" height="273"/>
+	<SubTexture name="animation10034" x="765" y="283" width="185" height="273"/>
+	<SubTexture name="animation10035" x="955" y="283" width="185" height="273"/>
+	<SubTexture name="animation10036" x="955" y="283" width="185" height="273"/>
+	<SubTexture name="animation20000" x="1145" y="283" width="112" height="90"/>
+	<SubTexture name="animation30000" x="5" y="561" width="396" height="426"/>
+	<SubTexture name="animation30001" x="5" y="561" width="396" height="426"/>
+	<SubTexture name="animation30002" x="406" y="561" width="396" height="426"/>
+	<SubTexture name="animation30003" x="406" y="561" width="396" height="426"/>
+	<SubTexture name="animation30004" x="807" y="561" width="396" height="426"/>
+	<SubTexture name="animation30005" x="807" y="561" width="396" height="426"/>
+	<SubTexture name="animation30006" x="5" y="992" width="396" height="426"/>
+	<SubTexture name="animation30007" x="5" y="992" width="396" height="426"/>
+	<SubTexture name="animation30008" x="406" y="992" width="396" height="426"/>
+	<SubTexture name="animation30009" x="406" y="992" width="396" height="426"/>
+	<SubTexture name="animation30010" x="807" y="992" width="396" height="426"/>
+	<SubTexture name="animation30011" x="807" y="992" width="396" height="426"/>
+	<SubTexture name="animation30012" x="5" y="1423" width="396" height="426"/>
+</TextureAtlas>

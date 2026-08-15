@@ -1,0 +1,44 @@
+{
+	"name": "Mr Do You",
+	"asset": "bgs/musical/characters/mr do you",
+	"startingAnim": "idle",
+	"barColor": "0xFFAA8844",
+	"animations": [
+		{
+			"name": "idle",
+			"prefix": "idle",
+			"frameRate": 24,
+			"offsets": [405, 247]
+		},
+		{
+			"name": "singLEFT",
+			"prefix": "singLEFT",
+			"frameRate": 24,
+			"offsets": [0, 0]
+		},
+		{
+			"name": "singDOWN",
+			"prefix": "singDOWN",
+			"frameRate": 24,
+			"offsets": [0, 0]
+		},
+		{
+			"name": "singUP",
+			"prefix": "singUP",
+			"frameRate": 24,
+			"offsets": [0, 0]
+		},
+		{
+			"name": "singRIGHT",
+			"prefix": "singRIGHT",
+			"frameRate": 24,
+			"offsets": [0, 0]
+		},
+		{
+			"name": "random",
+			"prefix": "random",
+			"frameRate": 24,
+			"offsets": [0, 0]
+		}
+	]
+}

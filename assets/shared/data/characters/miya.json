@@ -1,0 +1,62 @@
+{
+	"name": "Miya",
+	"asset": "characters/miya",
+	"startingAnim": "idle",
+	"barColor": "0xFF9966FF",
+	"animations": [
+		{
+			"name": "idle",
+			"prefix": "idle",
+			"frameRate": 24,
+			"offsets": [0, 0]
+		},
+		{
+			"name": "singLEFT",
+			"prefix": "singLEFT",
+			"frameRate": 24,
+			"offsets": [0, 0]
+		},
+		{
+			"name": "singDOWN",
+			"prefix": "singDOWN",
+			"frameRate": 24,
+			"offsets": [0, 0]
+		},
+		{
+			"name": "singUP",
+			"prefix": "singUP",
+			"frameRate": 24,
+			"offsets": [0, 0]
+		},
+		{
+			"name": "singRIGHT",
+			"prefix": "singRIGHT",
+			"frameRate": 24,
+			"offsets": [0, 0]
+		},
+		{
+			"name": "singLEFTmiss",
+			"prefix": "singLEFTmiss",
+			"frameRate": 24,
+			"offsets": [0, 0]
+		},
+		{
+			"name": "singDOWNmiss",
+			"prefix": "singDOWNmiss",
+			"frameRate": 24,
+			"offsets": [0, 0]
+		},
+		{
+			"name": "singUPmiss",
+			"prefix": "singUPmiss",
+			"frameRate": 24,
+			"offsets": [0, 0]
+		},
+		{
+			"name": "singRIGHTmiss",
+			"prefix": "singRIGHTmiss",
+			"frameRate": 24,
+			"offsets": [0, 0]
+		}
+	]
+}

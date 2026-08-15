@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="solm.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="sol0000" x="20" y="20" width="1168" height="1077" frameX="-14" frameY="0" frameWidth="1182" frameHeight="1086"/>
+	<SubTexture name="sol0001" x="20" y="20" width="1168" height="1077" frameX="-14" frameY="0" frameWidth="1182" frameHeight="1086"/>
+	<SubTexture name="sol0002" x="20" y="20" width="1168" height="1077" frameX="-14" frameY="0" frameWidth="1182" frameHeight="1086"/>
+	<SubTexture name="sol0003" x="1208" y="20" width="1157" height="1061" frameX="-24" frameY="-19" frameWidth="1182" frameHeight="1086"/>
+	<SubTexture name="sol0004" x="1208" y="20" width="1157" height="1061" frameX="-24" frameY="-19" frameWidth="1182" frameHeight="1086"/>
+	<SubTexture name="sol0005" x="1208" y="20" width="1157" height="1061" frameX="-24" frameY="-19" frameWidth="1182" frameHeight="1086"/>
+	<SubTexture name="sol0006" x="20" y="1117" width="1173" height="1047" frameX="-2" frameY="-29" frameWidth="1182" frameHeight="1086"/>
+	<SubTexture name="sol0007" x="20" y="1117" width="1173" height="1047" frameX="-2" frameY="-29" frameWidth="1182" frameHeight="1086"/>
+	<SubTexture name="sol0008" x="20" y="1117" width="1173" height="1047" frameX="-2" frameY="-29" frameWidth="1182" frameHeight="1086"/>
+	<SubTexture name="sol0009" x="1213" y="1117" width="1169" height="1066" frameX="0" frameY="-20" frameWidth="1182" frameHeight="1086"/>
+	<SubTexture name="sol0010" x="1213" y="1117" width="1169" height="1066" frameX="0" frameY="-20" frameWidth="1182" frameHeight="1086"/>
+	<SubTexture name="sol0011" x="1213" y="1117" width="1169" height="1066" frameX="0" frameY="-20" frameWidth="1182" frameHeight="1086"/>
+</TextureAtlas>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="text.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="text0000" x="0" y="0" width="95" height="41" frameX="0" frameY="0" frameWidth="336" frameHeight="50"/>
+	<SubTexture name="text0001" x="0" y="0" width="95" height="41" frameX="0" frameY="0" frameWidth="336" frameHeight="50"/>
+	<SubTexture name="text0002" x="0" y="0" width="95" height="41" frameX="0" frameY="0" frameWidth="336" frameHeight="50"/>
+	<SubTexture name="text0003" x="0" y="0" width="95" height="41" frameX="0" frameY="0" frameWidth="336" frameHeight="50"/>
+	<SubTexture name="text0004" x="0" y="0" width="95" height="41" frameX="0" frameY="0" frameWidth="336" frameHeight="50"/>
+	<SubTexture name="text0005" x="0" y="0" width="95" height="41" frameX="0" frameY="0" frameWidth="336" frameHeight="50"/>
+	<SubTexture name="text0006" x="0" y="0" width="95" height="41" frameX="0" frameY="0" frameWidth="336" frameHeight="50"/>
+	<SubTexture name="text0007" x="0" y="0" width="95" height="41" frameX="0" frameY="0" frameWidth="336" frameHeight="50"/>
+	<SubTexture name="text0008" x="0" y="0" width="95" height="41" frameX="0" frameY="0" frameWidth="336" frameHeight="50"/>
+	<SubTexture name="text0009" x="95" y="0" width="135" height="41" frameX="0" frameY="0" frameWidth="336" frameHeight="50"/>
+	<SubTexture name="text0010" x="95" y="0" width="135" height="41" frameX="0" frameY="0" frameWidth="336" frameHeight="50"/>
+	<SubTexture name="text0011" x="95" y="0" width="135" height="41" frameX="0" frameY="0" frameWidth="336" frameHeight="50"/>
+	<SubTexture name="text0012" x="95" y="0" width="135" height="41" frameX="0" frameY="0" frameWidth="336" frameHeight="50"/>
+	<SubTexture name="text0013" x="95" y="0" width="135" height="41" frameX="0" frameY="0" frameWidth="336" frameHeight="50"/>
+	<SubTexture name="text0014" x="0" y="41" width="241" height="50" frameX="0" frameY="0" frameWidth="336" frameHeight="50"/>
+	<SubTexture name="text0015" x="0" y="41" width="241" height="50" frameX="0" frameY="0" frameWidth="336" frameHeight="50"/>
+	<SubTexture name="text0016" x="0" y="41" width="241" height="50" frameX="0" frameY="0" frameWidth="336" frameHeight="50"/>
+	<SubTexture name="text0017" x="0" y="41" width="241" height="50" frameX="0" frameY="0" frameWidth="336" frameHeight="50"/>
+	<SubTexture name="text0018" x="0" y="41" width="241" height="50" frameX="0" frameY="0" frameWidth="336" frameHeight="50"/>
+	<SubTexture name="text0019" x="0" y="91" width="336" height="50"/>
+	<SubTexture name="text0020" x="0" y="91" width="336" height="50"/>
+	<SubTexture name="text0021" x="0" y="91" width="336" height="50"/>
+	<SubTexture name="text0022" x="0" y="91" width="336" height="50"/>
+	<SubTexture name="text0023" x="0" y="91" width="336" height="50"/>
+	<SubTexture name="text0024" x="0" y="91" width="336" height="50"/>
+	<SubTexture name="text0025" x="0" y="91" width="336" height="50"/>
+	<SubTexture name="text0026" x="0" y="91" width="336" height="50"/>
+	<SubTexture name="text0027" x="0" y="91" width="336" height="50"/>
+	<SubTexture name="text0028" x="0" y="91" width="336" height="50"/>
+	<SubTexture name="text0029" x="0" y="91" width="336" height="50"/>
+	<SubTexture name="text0030" x="0" y="91" width="336" height="50"/>
+	<SubTexture name="text0031" x="0" y="91" width="336" height="50"/>
+	<SubTexture name="text0032" x="0" y="91" width="336" height="50"/>
+	<SubTexture name="text0033" x="0" y="91" width="336" height="50"/>
+	<SubTexture name="text0034" x="0" y="91" width="336" height="50"/>
+	<SubTexture name="text0035" x="0" y="91" width="336" height="50"/>
+	<SubTexture name="text0036" x="0" y="91" width="336" height="50"/>
+	<SubTexture name="text0037" x="0" y="91" width="336" height="50"/>
+	<SubTexture name="text0038" x="0" y="91" width="336" height="50"/>
+	<SubTexture name="text0039" x="0" y="91" width="336" height="50"/>
+</TextureAtlas>

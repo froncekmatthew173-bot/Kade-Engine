@@ -1,0 +1,176 @@
+{
+  "song": {
+    "song": "Vilbert Song",
+    "bpm": 130,
+    "needsVoices": true,
+    "player1": "bf",
+    "player2": "vilbert",
+    "gfVersion": "gf",
+    "noteStyle": "normal",
+    "stage": "stageArtificial_villbert",
+    "speed": 1.0,
+    "validScore": true,
+    "notes": [
+      {
+        "lengthInSteps": 16,
+        "mustHitSection": false,
+        "sectionNotes": []
+      },
+      {
+        "lengthInSteps": 16,
+        "mustHitSection": true,
+        "sectionNotes": []
+      },
+      {
+        "lengthInSteps": 16,
+        "mustHitSection": false,
+        "sectionNotes": []
+      },
+      {
+        "lengthInSteps": 16,
+        "mustHitSection": true,
+        "sectionNotes": []
+      },
+      {
+        "lengthInSteps": 16,
+        "mustHitSection": false,
+        "sectionNotes": []
+      },
+      {
+        "lengthInSteps": 16,
+        "mustHitSection": true,
+        "sectionNotes": []
+      },
+      {
+        "lengthInSteps": 16,
+        "mustHitSection": false,
+        "sectionNotes": []
+      },
+      {
+        "lengthInSteps": 16,
+        "mustHitSection": true,
+        "sectionNotes": []
+      },
+      {
+        "lengthInSteps": 16,
+        "mustHitSection": false,
+        "sectionNotes": []
+      },
+      {
+        "lengthInSteps": 16,
+        "mustHitSection": true,
+        "sectionNotes": []
+      },
+      {
+        "lengthInSteps": 16,
+        "mustHitSection": false,
+        "sectionNotes": []
+      },
+      {
+        "lengthInSteps": 16,
+        "mustHitSection": true,
+        "sectionNotes": []
+      },
+      {
+        "lengthInSteps": 16,
+        "mustHitSection": false,
+        "sectionNotes": []
+      },
+      {
+        "lengthInSteps": 16,
+        "mustHitSection": true,
+        "sectionNotes": []
+      },
+      {
+        "lengthInSteps": 16,
+        "mustHitSection": false,
+        "sectionNotes": []
+      },
+      {
+        "lengthInSteps": 16,
+        "mustHitSection": true,
+        "sectionNotes": []
+      },
+      {
+        "lengthInSteps": 16,
+        "mustHitSection": false,
+        "sectionNotes": []
+      },
+      {
+        "lengthInSteps": 16,
+        "mustHitSection": true,
+        "sectionNotes": []
+      },
+      {
+        "lengthInSteps": 16,
+        "mustHitSection": false,
+        "sectionNotes": []
+      },
+      {
+        "lengthInSteps": 16,
+        "mustHitSection": true,
+        "sectionNotes": []
+      },
+      {
+        "lengthInSteps": 16,
+        "mustHitSection": false,
+        "sectionNotes": []
+      },
+      {
+        "lengthInSteps": 16,
+        "mustHitSection": true,
+        "sectionNotes": []
+      },
+      {
+        "lengthInSteps": 16,
+        "mustHitSection": false,
+        "sectionNotes": []
+      },
+      {
+        "lengthInSteps": 16,
+        "mustHitSection": true,
+        "sectionNotes": []
+      },
+      {
+        "lengthInSteps": 16,
+        "mustHitSection": false,
+        "sectionNotes": []
+      },
+      {
+        "lengthInSteps": 16,
+        "mustHitSection": true,
+        "sectionNotes": []
+      },
+      {
+        "lengthInSteps": 16,
+        "mustHitSection": false,
+        "sectionNotes": []
+      },
+      {
+        "lengthInSteps": 16,
+        "mustHitSection": true,
+        "sectionNotes": []
+      },
+      {
+        "lengthInSteps": 16,
+        "mustHitSection": false,
+        "sectionNotes": []
+      },
+      {
+        "lengthInSteps": 16,
+        "mustHitSection": true,
+        "sectionNotes": []
+      },
+      {
+        "lengthInSteps": 16,
+        "mustHitSection": false,
+        "sectionNotes": []
+      },
+      {
+        "lengthInSteps": 16,
+        "mustHitSection": true,
+        "sectionNotes": []
+      }
+    ]
+  }
+}

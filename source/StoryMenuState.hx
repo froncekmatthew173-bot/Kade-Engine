@@ -32,7 +32,18 @@ class StoryMenuState extends MusicBeatState
 			['pico', 'philly', "blammed"],
 			['satin-panties', "high", "milf"],
 			['cocoa', 'eggnog', 'winter-horrorland'],
-			['senpai', 'roses', 'thorns']
+			['senpai', 'roses', 'thorns'],
+			// Custom weeks from decompiled binary
+			['splingo-intro', 'splingo-main', 'jimble-joins'],
+			['derelict-intro', 'derelict-main', 'derelict-corrupted', 'derelict-finale'],
+			['garretson-song', 'vilbert-song', 'maldo-song', 'carl-song'],
+			['piu-chortle', 'piu-dance', 'piu-fullmode'],
+			['musical-garretson', 'musical-richard', 'musical-play', 'musical-mrdo'],
+			['sarah-dejavu', 'sarah-surprise', 'sarah-darkness'],
+			['miya-reality', 'miya-rain', 'miya-wind', 'miya-text'],
+			['atrocious-song', 'atrocious-cutscene'],
+			['blitz-song', 'blitz-house'],
+			['minus-song', 'minus-bf']
 		];
 	}
 
@@ -47,7 +58,18 @@ class StoryMenuState extends MusicBeatState
 		['pico', 'bf', 'gf'],
 		['mom', 'bf', 'gf'],
 		['parents-christmas', 'bf', 'gf'],
-		['senpai', 'bf', 'gf']
+		['senpai', 'bf', 'gf'],
+		// Custom weeks from decompiled binary
+		['splingo', 'bf', 'gf'],
+		['theDerelict', 'bf', 'gf'],
+		['garretson', 'bf', 'gf'],
+		['primo', 'bf', 'gf'],
+		['garretson', 'bf', 'gf'],
+		['sarah', 'bf', 'gf'],
+		['miya', 'bf', 'gf'],
+		['atrocious', 'bf', 'gf'],
+		['davepizza', 'bf', 'gf'],
+		['davepizza', 'bf', 'gf']
 	];
 
 	var weekNames:Array<String> = CoolUtil.coolTextFile(Paths.txt('data/weekNames'));

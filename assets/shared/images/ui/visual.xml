@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="visual.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Active0000" x="0" y="0" width="320" height="180"/>
+	<SubTexture name="Active0001" x="0" y="0" width="320" height="180"/>
+	<SubTexture name="Active0002" x="320" y="0" width="320" height="180"/>
+	<SubTexture name="Active0003" x="320" y="0" width="320" height="180"/>
+	<SubTexture name="Active0004" x="640" y="0" width="320" height="180"/>
+	<SubTexture name="Active0005" x="640" y="0" width="320" height="180"/>
+	<SubTexture name="Active0006" x="0" y="180" width="320" height="180"/>
+	<SubTexture name="Active0007" x="0" y="180" width="320" height="180"/>
+	<SubTexture name="EndSong0000" x="0" y="0" width="320" height="180"/>
+	<SubTexture name="EndSong0001" x="0" y="0" width="320" height="180"/>
+	<SubTexture name="EndSong0002" x="320" y="0" width="320" height="180"/>
+	<SubTexture name="EndSong0003" x="320" y="0" width="320" height="180"/>
+	<SubTexture name="EndSong0004" x="640" y="0" width="320" height="180"/>
+	<SubTexture name="EndSong0005" x="640" y="0" width="320" height="180"/>
+	<SubTexture name="EndSong0006" x="320" y="360" width="320" height="180"/>
+	<SubTexture name="EndSong0007" x="320" y="360" width="320" height="180"/>
+	<SubTexture name="EndSong0008" x="0" y="360" width="320" height="180"/>
+	<SubTexture name="EndSong0009" x="0" y="360" width="320" height="180"/>
+	<SubTexture name="EndSong0010" x="640" y="180" width="320" height="180"/>
+	<SubTexture name="EndSong0011" x="640" y="180" width="320" height="180"/>
+	<SubTexture name="EndSong0012" x="640" y="180" width="320" height="180"/>
+	<SubTexture name="EndSong0013" x="640" y="180" width="320" height="180"/>
+	<SubTexture name="EndSong0014" x="640" y="180" width="320" height="180"/>
+	<SubTexture name="EndSong0015" x="640" y="180" width="320" height="180"/>
+	<SubTexture name="EndSong0016" x="640" y="180" width="320" height="180"/>
+	<SubTexture name="EndSong0017" x="640" y="180" width="320" height="180"/>
+	<SubTexture name="EndSong0018" x="640" y="180" width="320" height="180"/>
+	<SubTexture name="EndSong0019" x="640" y="180" width="320" height="180"/>
+	<SubTexture name="EndSong0020" x="640" y="180" width="320" height="180"/>
+	<SubTexture name="Return0000" x="0" y="180" width="320" height="180"/>
+	<SubTexture name="Return0001" x="0" y="180" width="320" height="180"/>
+	<SubTexture name="Return0002" x="640" y="0" width="320" height="180"/>
+	<SubTexture name="Return0003" x="640" y="0" width="320" height="180"/>
+	<SubTexture name="Return0004" x="320" y="0" width="320" height="180"/>
+	<SubTexture name="Return0005" x="320" y="0" width="320" height="180"/>
+	<SubTexture name="Return0006" x="0" y="0" width="320" height="180"/>
+	<SubTexture name="Return0007" x="0" y="0" width="320" height="180"/>
+	<SubTexture name="Return0008" x="320" y="180" width="320" height="180"/>
+	<SubTexture name="Return0009" x="320" y="180" width="320" height="180"/>
+	<SubTexture name="StartSong0000" x="640" y="180" width="320" height="180"/>
+	<SubTexture name="StartSong0001" x="640" y="180" width="320" height="180"/>
+	<SubTexture name="StartSong0002" x="0" y="360" width="320" height="180"/>
+	<SubTexture name="StartSong0003" x="0" y="360" width="320" height="180"/>
+	<SubTexture name="StartSong0004" x="320" y="360" width="320" height="180"/>
+	<SubTexture name="StartSong0005" x="320" y="360" width="320" height="180"/>
+	<SubTexture name="StartSong0006" x="640" y="0" width="320" height="180"/>
+	<SubTexture name="StartSong0007" x="640" y="0" width="320" height="180"/>
+	<SubTexture name="StartSong0008" x="320" y="0" width="320" height="180"/>
+	<SubTexture name="StartSong0009" x="320" y="0" width="320" height="180"/>
+	<SubTexture name="StartSong0010" x="0" y="0" width="320" height="180"/>
+	<SubTexture name="StartSong0011" x="0" y="0" width="320" height="180"/>
+	<SubTexture name="Static0000" x="320" y="180" width="320" height="180"/>
+</TextureAtlas>

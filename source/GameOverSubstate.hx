@@ -14,17 +14,66 @@ class GameOverSubstate extends MusicBeatSubstate
 
 	var stageSuffix:String = "";
 
+	// Custom game over character variants from decompiled binary
+	private static var customGameOverChars:Map<String, String> = [
+		'bf-pixel' => 'bf-pixel-dead',
+		'bf-car' => 'bf',
+		'bf-christmas' => 'bf',
+		// Custom characters use their own game over variants
+		'splingo' => 'bf',
+		'theDerelict' => 'bf',
+		'garretson' => 'bf',
+		'vilbert' => 'bf',
+		'maldo' => 'bf',
+		'carl' => 'bf',
+		'primo' => 'bf',
+		'miya' => 'bf',
+		'sarah' => 'bf',
+		'atrocious' => 'bf',
+		'davepizza' => 'bf'
+	];
+
+	// Game over character asset paths from decompiled binary
+	private static var gameOverCharAssets:Map<String, String> = [
+		'default' => 'gameOver/char/BF',
+		'michel' => 'gameOver/char/BF_michel',
+		'silly_bucket' => 'gameOver/char/silly_bucket',
+		'jimbio' => 'gameOver/char/jimbio',
+		'dave' => 'gameOver/char/dave',
+		'miya' => 'gameOver/char/miya',
+		'primo' => 'gameOver/primoGameOver/primo'
+	];
+
 	public function new(x:Float, y:Float)
 	{
 		var daStage = PlayState.Stage.curStage;
 		var daBf:String = '';
-		switch (PlayState.boyfriend.curCharacter)
+
+		// Check for custom game over character
+		var bfChar = PlayState.boyfriend.curCharacter;
+		if (customGameOverChars.exists(bfChar))
 		{
-			case 'bf-pixel':
-				stageSuffix = '-pixel';
-				daBf = 'bf-pixel-dead';
-			default:
-				daBf = 'bf';
+			daBf = customGameOverChars[bfChar];
+		}
+		else
+		{
+			switch (bfChar)
+			{
+				case 'bf-pixel':
+					stageSuffix = '-pixel';
+					daBf = 'bf-pixel-dead';
+				default:
+					daBf = 'bf';
+			}
+		}
+
+		// Check for PIU/Chortle stage - use Primo game over
+		if (daStage == 'chortle')
+		{
+			// Use PiuGameOverSubstate instead
+			close();
+			FlxG.state.openSubState(new PiuGameOverSubstate());
+			return;
 		}
 
 		super();
@@ -40,8 +89,6 @@ class GameOverSubstate extends MusicBeatSubstate
 		FlxG.sound.play(Paths.sound('fnf_loss_sfx' + stageSuffix));
 		Conductor.changeBPM(100);
 
-		// FlxG.camera.followLerp = 1;
-		// FlxG.camera.focusOn(FlxPoint.get(FlxG.width / 2, FlxG.height / 2));
 		FlxG.camera.scroll.set();
 		FlxG.camera.target = null;
 

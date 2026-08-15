@@ -25,7 +25,12 @@ class PauseSubState extends MusicBeatSubstate
 	public static var goToOptions:Bool = false;
 	public static var goBack:Bool = false;
 
+	// Default pause menu items
 	var menuItems:Array<String> = ['Resume', 'Restart Song', 'Options', 'Exit to menu'];
+
+	// Custom pause menu items for PIU/DDR stages
+	var piuMenuItems:Array<String> = ['Resume', 'Restart Song', 'Options', 'Botplay', 'Exit to menu'];
+
 	var curSelected:Int = 0;
 
 	public static var playingPause:Bool = false;
@@ -39,9 +44,40 @@ class PauseSubState extends MusicBeatSubstate
 
 	var bg:FlxSprite;
 
+	// Custom pause menu character support
+	private var pauseCharacter:String = 'bf';
+	private var pauseScale:Float = 1.0;
+	private var pausePosition:flixel.math.FlxPoint = new flixel.math.FlxPoint(0, 0);
+
 	public function new()
 	{
 		super();
+
+		// Check for custom pause menu settings based on stage
+		var daStage = PlayState.Stage.curStage;
+		switch (daStage)
+		{
+			case 'chortle':
+				menuItems = piuMenuItems;
+				pauseCharacter = 'primo';
+				pauseScale = 1.2;
+				pausePosition.set(100, 200);
+			case 'derelict':
+				pauseCharacter = 'theDerelict';
+				pauseScale = 1.3;
+				pausePosition.set(50, 100);
+			case 'mainStage_splingo':
+				pauseCharacter = 'splingo';
+				pauseScale = 1.1;
+				pausePosition.set(80, 150);
+			case 'musical':
+				pauseCharacter = 'garretson';
+				pauseScale = 1.0;
+				pausePosition.set(100, 180);
+			default:
+				// Use default BF pause
+				pauseCharacter = 'bf';
+		}
 
 		if (PlayState.instance.useVideo)
 		{

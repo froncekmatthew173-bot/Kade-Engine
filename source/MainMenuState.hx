@@ -14,6 +14,8 @@ import flixel.tweens.FlxTween;
 import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
 import lime.app.Application;
+import openfl.utils.Assets;
+import openfl.utils.AssetType;
 #if FEATURE_DISCORD
 import Discord.DiscordClient;
 #end
@@ -27,9 +29,9 @@ class MainMenuState extends MusicBeatState
 	var menuItems:FlxTypedGroup<FlxSprite>;
 
 	#if !switch
-	var optionShit:Array<String> = ['story mode', 'freeplay', 'donate', 'options'];
+	var optionShit:Array<String> = ['play', 'freeplay', 'options', 'credits'];
 	#else
-	var optionShit:Array<String> = ['story mode', 'freeplay'];
+	var optionShit:Array<String> = ['play', 'freeplay'];
 	#end
 
 	var newGaming:FlxText;
@@ -46,6 +48,11 @@ class MainMenuState extends MusicBeatState
 	var camFollow:FlxObject;
 
 	public static var finishedFunnyMove:Bool = false;
+
+	// Custom menu background sprites
+	private var menuBG:FlxSprite;
+	private var menuDesat:FlxSprite;
+	private var menuOverlay:FlxSprite;
 
 	override function create()
 	{
@@ -64,34 +71,58 @@ class MainMenuState extends MusicBeatState
 
 		persistentUpdate = persistentDraw = true;
 
-		var bg:FlxSprite = new FlxSprite(-100).loadGraphic(Paths.loadImage('menuBG'));
-		bg.scrollFactor.x = 0;
-		bg.scrollFactor.y = 0.10;
-		bg.setGraphicSize(Std.int(bg.width * 1.1));
-		bg.updateHitbox();
-		bg.screenCenter();
-		bg.antialiasing = FlxG.save.data.antialiasing;
-		add(bg);
+		// Try custom menu BG first, fallback to default
+		if (openfl.utils.Assets.exists(Paths.image('images/Menus/Main/menuBG'), openfl.utils.AssetType.IMAGE))
+		{
+			menuBG = new FlxSprite(-100).loadGraphic(Paths.loadImage('Menus/Main/menuBG'));
+		}
+		else
+		{
+			menuBG = new FlxSprite(-100).loadGraphic(Paths.loadImage('menuBG'));
+		}
+		menuBG.scrollFactor.x = 0;
+		menuBG.scrollFactor.y = 0.10;
+		menuBG.setGraphicSize(Std.int(menuBG.width * 1.1));
+		menuBG.updateHitbox();
+		menuBG.screenCenter();
+		menuBG.antialiasing = FlxG.save.data.antialiasing;
+		add(menuBG);
 
 		camFollow = new FlxObject(0, 0, 1, 1);
 		add(camFollow);
 
-		magenta = new FlxSprite(-80).loadGraphic(Paths.loadImage('menuDesat'));
-		magenta.scrollFactor.x = 0;
-		magenta.scrollFactor.y = 0.10;
-		magenta.setGraphicSize(Std.int(magenta.width * 1.1));
-		magenta.updateHitbox();
-		magenta.screenCenter();
-		magenta.visible = false;
-		magenta.antialiasing = FlxG.save.data.antialiasing;
-		magenta.color = 0xFFfd719b;
-		add(magenta);
-		// magenta.scrollFactor.set();
+		// Try custom menu desat first, fallback to default
+		if (openfl.utils.Assets.exists(Paths.image('images/Menus/Main/menuDesat'), openfl.utils.AssetType.IMAGE))
+		{
+			menuDesat = new FlxSprite(-80).loadGraphic(Paths.loadImage('Menus/Main/menuDesat'));
+		}
+		else
+		{
+			menuDesat = new FlxSprite(-80).loadGraphic(Paths.loadImage('menuDesat'));
+		}
+		menuDesat.scrollFactor.x = 0;
+		menuDesat.scrollFactor.y = 0.10;
+		menuDesat.setGraphicSize(Std.int(menuDesat.width * 1.1));
+		menuDesat.updateHitbox();
+		menuDesat.screenCenter();
+		menuDesat.visible = false;
+		menuDesat.antialiasing = FlxG.save.data.antialiasing;
+		menuDesat.color = 0xFFfd719b;
+		add(menuDesat);
 
 		menuItems = new FlxTypedGroup<FlxSprite>();
 		add(menuItems);
 
-		var tex = Paths.getSparrowAtlas('FNF_main_menu_assets');
+		// Try custom menu assets first, fallback to default
+		var tex:FlxAtlasFrames;
+		if (openfl.utils.Assets.exists(Paths.image('images/Menus/Main/Menu_assets'), openfl.utils.AssetType.IMAGE))
+		{
+			tex = Paths.getSparrowAtlas('Menus/Main/Menu_assets');
+		}
+		else
+		{
+			tex = Paths.getSparrowAtlas('FNF_main_menu_assets');
+		}
 
 		for (i in 0...optionShit.length)
 		{
@@ -122,12 +153,10 @@ class MainMenuState extends MusicBeatState
 
 		FlxG.camera.follow(camFollow, null, 0.60 * (60 / FlxG.save.data.fpsCap));
 
-		var versionShit:FlxText = new FlxText(5, FlxG.height - 18, 0, gameVer, 12);
+		var versionShit:FlxText = new FlxText(5, FlxG.height - 18, 0, gameVer + " | Kade Engine " + kadeEngineVer, 12);
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
-
-		// NG.core.calls.event.logEvent('swag').send();
 
 		if (FlxG.save.data.dfjk)
 			controls.setKeyboardScheme(KeyboardScheme.Solo, true);
@@ -245,16 +274,17 @@ class MainMenuState extends MusicBeatState
 
 		switch (daChoice)
 		{
-			case 'story mode':
+			case 'play':
 				FlxG.switchState(new StoryMenuState());
 				trace("Story Menu Selected");
 			case 'freeplay':
 				FlxG.switchState(new FreeplayState());
-
 				trace("Freeplay Menu Selected");
-
 			case 'options':
 				FlxG.switchState(new OptionsDirect());
+			case 'credits':
+				FlxG.switchState(new CreditsState());
+				trace("Credits Selected");
 		}
 	}
 

@@ -80,6 +80,7 @@ import openfl.filters.ShaderFilter;
 #if FEATURE_DISCORD
 import Discord.DiscordClient;
 #end
+import CutsceneSystem;
 
 using StringTools;
 
@@ -259,6 +260,8 @@ class PlayState extends MusicBeatState
 	public var randomVar = false;
 
 	public static var Stage:Stage;
+
+	public var cutsceneSystem:CutsceneSystem;
 
 	public static var repPresses:Int = 0;
 	public static var repReleases:Int = 0;
@@ -524,6 +527,26 @@ class PlayState extends MusicBeatState
 					{
 						stageCheck = 'school';
 					}
+				case 7:
+					stageCheck = 'mainStage_splingo';
+				case 8:
+					stageCheck = 'derelict';
+				case 9:
+					stageCheck = 'stageArtificial_garretson';
+				case 10:
+					stageCheck = 'chortle';
+				case 11:
+					stageCheck = 'musical';
+				case 12:
+					stageCheck = 'sarah';
+				case 13:
+					stageCheck = 'miya';
+				case 14:
+					stageCheck = 'atrocious';
+				case 15:
+					stageCheck = 'blitz';
+				case 16:
+					stageCheck = 'minus';
 					// i should check if its stage (but this is when none is found in chart anyway)
 			}
 		}
@@ -590,6 +613,8 @@ class PlayState extends MusicBeatState
 
 		if (!stageTesting)
 			Stage = new Stage(SONG.stage);
+
+		cutsceneSystem = new CutsceneSystem(this);
 
 		var positions = Stage.positions[Stage.curStage];
 		if (positions != null && !stageTesting)
@@ -1015,6 +1040,26 @@ class PlayState extends MusicBeatState
 					schoolIntro(doof);
 				case 'thorns':
 					schoolIntro(doof);
+				case 'derelict':
+					cutsceneSystem.playCutscene(CutsceneSystem.CUTSCENE_DERELICT, function() {
+						startCountdown();
+					});
+				case 'splingo':
+					cutsceneSystem.playCutscene(CutsceneSystem.CUTSCENE_SPLINGO, function() {
+						startCountdown();
+					});
+				case 'atrocious':
+					cutsceneSystem.playCutscene(CutsceneSystem.CUTSCENE_ATROCIOUS, function() {
+						startCountdown();
+					});
+				case 'sarah':
+					cutsceneSystem.playCutscene(CutsceneSystem.CUTSCENE_SARAH, function() {
+						startCountdown();
+					});
+				case 'miya':
+					cutsceneSystem.playCutscene(CutsceneSystem.CUTSCENE_MIYA, function() {
+						startCountdown();
+					});
 				default:
 					new FlxTimer().start(1, function(timer)
 					{
@@ -4408,6 +4453,9 @@ class PlayState extends MusicBeatState
 			resyncVocals();
 		}
 
+		if (!PlayStateChangeables.Optimize && Stage != null)
+			Stage.stepHit();
+
 		#if FEATURE_LUAMODCHART
 		if (executeModchart && luaModchart != null)
 		{
@@ -4425,6 +4473,9 @@ class PlayState extends MusicBeatState
 		{
 			notes.sort(FlxSort.byY, (PlayStateChangeables.useDownscroll ? FlxSort.ASCENDING : FlxSort.DESCENDING));
 		}
+
+		if (!PlayStateChangeables.Optimize && Stage != null)
+			Stage.beatHit();
 
 		#if FEATURE_LUAMODCHART
 		if (executeModchart && luaModchart != null)

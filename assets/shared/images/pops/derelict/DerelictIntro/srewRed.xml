@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="srewRed.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="screw0000" x="0" y="0" width="8" height="7" frameX="-262" frameY="-525" frameWidth="629" frameHeight="632"/>
+	<SubTexture name="screw0001" x="0" y="0" width="8" height="7" frameX="-262" frameY="-525" frameWidth="629" frameHeight="632"/>
+	<SubTexture name="screw0002" x="0" y="0" width="8" height="7" frameX="-262" frameY="-525" frameWidth="629" frameHeight="632"/>
+	<SubTexture name="screw0003" x="0" y="0" width="8" height="7" frameX="-262" frameY="-525" frameWidth="629" frameHeight="632"/>
+	<SubTexture name="screw0004" x="0" y="0" width="8" height="7" frameX="-262" frameY="-525" frameWidth="629" frameHeight="632"/>
+	<SubTexture name="screw0005" x="0" y="0" width="8" height="7" frameX="-262" frameY="-525" frameWidth="629" frameHeight="632"/>
+	<SubTexture name="screw0006" x="0" y="0" width="8" height="7" frameX="-262" frameY="-525" frameWidth="629" frameHeight="632"/>
+	<SubTexture name="screw0007" x="0" y="0" width="8" height="7" frameX="-262" frameY="-525" frameWidth="629" frameHeight="632"/>
+	<SubTexture name="screw0008" x="0" y="0" width="8" height="7" frameX="-262" frameY="-525" frameWidth="629" frameHeight="632"/>
+	<SubTexture name="screw0009" x="0" y="0" width="8" height="7" frameX="-262" frameY="-525" frameWidth="629" frameHeight="632"/>
+	<SubTexture name="screw0010" x="0" y="0" width="8" height="7" frameX="-262" frameY="-525" frameWidth="629" frameHeight="632"/>
+	<SubTexture name="screw0011" x="0" y="0" width="8" height="7" frameX="-262" frameY="-525" frameWidth="629" frameHeight="632"/>
+	<SubTexture name="screw0012" x="0" y="0" width="8" height="7" frameX="-262" frameY="-525" frameWidth="629" frameHeight="632"/>
+	<SubTexture name="screw0013" x="0" y="0" width="8" height="7" frameX="-262" frameY="-525" frameWidth="629" frameHeight="632"/>
+	<SubTexture name="screw0014" x="0" y="0" width="8" height="7" frameX="-262" frameY="-525" frameWidth="629" frameHeight="632"/>
+	<SubTexture name="screw0015" x="0" y="0" width="8" height="7" frameX="-262" frameY="-525" frameWidth="629" frameHeight="632"/>
+	<SubTexture name="screw0016" x="0" y="0" width="8" height="7" frameX="-262" frameY="-525" frameWidth="629" frameHeight="632"/>
+	<SubTexture name="screw0017" x="0" y="0" width="8" height="7" frameX="-262" frameY="-525" frameWidth="629" frameHeight="632"/>
+	<SubTexture name="screw0018" x="0" y="0" width="8" height="7" frameX="-262" frameY="-525" frameWidth="629" frameHeight="632"/>
+	<SubTexture name="screw0019" x="0" y="0" width="8" height="7" frameX="-262" frameY="-525" frameWidth="629" frameHeight="632"/>
+	<SubTexture name="screw0020" x="0" y="0" width="8" height="7" frameX="-262" frameY="-525" frameWidth="629" frameHeight="632"/>
+	<SubTexture name="screw0021" x="0" y="0" width="8" height="7" frameX="-262" frameY="-525" frameWidth="629" frameHeight="632"/>
+	<SubTexture name="screw0022" x="0" y="0" width="8" height="7" frameX="-262" frameY="-525" frameWidth="629" frameHeight="632"/>
+	<SubTexture name="screw0023" x="0" y="0" width="8" height="7" frameX="-262" frameY="-525" frameWidth="629" frameHeight="632"/>
+	<SubTexture name="screw0024" x="0" y="0" width="8" height="7" frameX="-262" frameY="-525" frameWidth="629" frameHeight="632"/>
+	<SubTexture name="screw0025" x="0" y="0" width="8" height="7" frameX="-262" frameY="-525" frameWidth="629" frameHeight="632"/>
+	<SubTexture name="screw0026" x="0" y="0" width="8" height="7" frameX="-262" frameY="-525" frameWidth="629" frameHeight="632"/>
+	<SubTexture name="screw0027" x="0" y="0" width="8" height="7" frameX="-262" frameY="-525" frameWidth="629" frameHeight="632"/>
+	<SubTexture name="screw0028" x="8" y="0" width="629" height="632"/>
+	<SubTexture name="screw0029" x="8" y="0" width="629" height="632"/>
+	<SubTexture name="screw0030" x="637" y="0" width="629" height="632"/>
+	<SubTexture name="screw0031" x="637" y="0" width="629" height="632"/>
+	<SubTexture name="screw0032" x="1266" y="0" width="629" height="632"/>
+	<SubTexture name="screw0033" x="1266" y="0" width="629" height="632"/>
+	<SubTexture name="screw0034" x="1895" y="0" width="629" height="632"/>
+	<SubTexture name="screw0035" x="1895" y="0" width="629" height="632"/>
+	<SubTexture name="screw0036" x="0" y="632" width="629" height="632"/>
+	<SubTexture name="screw0037" x="0" y="632" width="629" height="632"/>
+	<SubTexture name="screw0038" x="629" y="632" width="629" height="632"/>
+	<SubTexture name="screw0039" x="629" y="632" width="629" height="632"/>
+	<SubTexture name="screw0040" x="1258" y="632" width="629" height="632"/>
+	<SubTexture name="screw0041" x="1258" y="632" width="629" height="632"/>
+	<SubTexture name="screw0042" x="1887" y="632" width="629" height="632"/>
+	<SubTexture name="screw0043" x="1887" y="632" width="629" height="632"/>
+	<SubTexture name="screw0044" x="0" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0045" x="0" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0046" x="629" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0047" x="629" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0048" x="1258" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0049" x="1258" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0050" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0051" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0052" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0053" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0054" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0055" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0056" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0057" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0058" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0059" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0060" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0061" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0062" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0063" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0064" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0065" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0066" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0067" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0068" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0069" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0070" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0071" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0072" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0073" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0074" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0075" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0076" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0077" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0078" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0079" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0080" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0081" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0082" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0083" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0084" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0085" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0086" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0087" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0088" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0089" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0090" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0091" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0092" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0093" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0094" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0095" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0096" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0097" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0098" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0099" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0100" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0101" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0102" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0103" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0104" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0105" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0106" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0107" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0108" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0109" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0110" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0111" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0112" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0113" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0114" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0115" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0116" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0117" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0118" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0119" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0120" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0121" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0122" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0123" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0124" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0125" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0126" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0127" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0128" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0129" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0130" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0131" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0132" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0133" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0134" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0135" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0136" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0137" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0138" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0139" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0140" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0141" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0142" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0143" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0144" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0145" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0146" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0147" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0148" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0149" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0150" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0151" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0152" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0153" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0154" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0155" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0156" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0157" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0158" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0159" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0160" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0161" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0162" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0163" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0164" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0165" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0166" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0167" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0168" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0169" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0170" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0171" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0172" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0173" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0174" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0175" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0176" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0177" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0178" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0179" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0180" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0181" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0182" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0183" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0184" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0185" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0186" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0187" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0188" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0189" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0190" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0191" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0192" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0193" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0194" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0195" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0196" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0197" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0198" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0199" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0200" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0201" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0202" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0203" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0204" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0205" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0206" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0207" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0208" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0209" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0210" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0211" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0212" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0213" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0214" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0215" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0216" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0217" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0218" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0219" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0220" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0221" x="1887" y="1264" width="629" height="632"/>
+	<SubTexture name="screw0222" x="0" y="1896" width="629" height="632"/>
+	<SubTexture name="screw0223" x="0" y="1896" width="629" height="632"/>
+	<SubTexture name="screw0224" x="629" y="1896" width="629" height="632"/>
+	<SubTexture name="screw0225" x="629" y="1896" width="629" height="632"/>
+	<SubTexture name="screw0226" x="1258" y="1896" width="629" height="632"/>
+	<SubTexture name="screw0227" x="1258" y="1896" width="629" height="632"/>
+	<SubTexture name="screw0228" x="1258" y="1896" width="629" height="632"/>
+	<SubTexture name="screw0229" x="1258" y="1896" width="629" height="632"/>
+	<SubTexture name="screw0230" x="1258" y="1896" width="629" height="632"/>
+	<SubTexture name="screw0231" x="1258" y="1896" width="629" height="632"/>
+	<SubTexture name="screw0232" x="1258" y="1896" width="629" height="632"/>
+	<SubTexture name="screw0233" x="1258" y="1896" width="629" height="632"/>
+	<SubTexture name="screw0234" x="1258" y="1896" width="629" height="632"/>
+	<SubTexture name="screw0235" x="1258" y="1896" width="629" height="632"/>
+	<SubTexture name="screw0236" x="1258" y="1896" width="629" height="632"/>
+	<SubTexture name="screw0237" x="1258" y="1896" width="629" height="632"/>
+	<SubTexture name="screw0238" x="1258" y="1896" width="629" height="632"/>
+	<SubTexture name="screw0239" x="1258" y="1896" width="629" height="632"/>
+	<SubTexture name="screw0240" x="1258" y="1896" width="629" height="632"/>
+	<SubTexture name="screw0241" x="1258" y="1896" width="629" height="632"/>
+	<SubTexture name="screw0242" x="1258" y="1896" width="629" height="632"/>
+	<SubTexture name="screw0243" x="1258" y="1896" width="629" height="632"/>
+	<SubTexture name="screw0244" x="1258" y="1896" width="629" height="632"/>
+	<SubTexture name="screw0245" x="1258" y="1896" width="629" height="632"/>
+	<SubTexture name="screw0246" x="1258" y="1896" width="629" height="632"/>
+	<SubTexture name="screw0247" x="1258" y="1896" width="629" height="632"/>
+	<SubTexture name="screw0248" x="1258" y="1896" width="629" height="632"/>
+	<SubTexture name="screw0249" x="1258" y="1896" width="629" height="632"/>
+	<SubTexture name="screw0250" x="1258" y="1896" width="629" height="632"/>
+	<SubTexture name="screw0251" x="1258" y="1896" width="629" height="632"/>
+	<SubTexture name="screw0252" x="1887" y="1896" width="629" height="632"/>
+</TextureAtlas>
