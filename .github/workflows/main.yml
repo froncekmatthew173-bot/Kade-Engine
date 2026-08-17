@@ -1,10 +1,10 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Build
+name: Windows Build CI
 
-# Controls when the action will run.
+# Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the master branch
+  # Triggers the workflow on push or pull request events but only for the main branch
   push:
     branches: [ main ]
   pull_request:
@@ -15,51 +15,51 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-
-  buildWindows:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
     runs-on: windows-latest
+    env:
+      HAXELIB_ROOT: C:\haxelib
 
+    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@main
-
-      - uses: krdlab/setup-haxe@master
+      - uses: actions/checkout@v4
+      - uses: krdlab/setup-haxe@v2
         with:
-          haxe-version: 4.2.5
+          haxe-version: 4.1.5
       # Runs a set of commands using the runners shell
-      - name: Install Haxelib
+      - name: Install haxelibs
+        shell: cmd
         run: |
-          haxelib setup C:/haxelib
-          haxelib --global update haxelib
-          haxelib install hxcpp > nul
-          haxelib install lime
+          if not exist "%HAXELIB_ROOT%" mkdir "%HAXELIB_ROOT%"
+          haxelib setup "%HAXELIB_ROOT%"
+          haxelib install hxcpp
+          haxelib install lime 7.9.0
           haxelib install openfl
-          haxelib --never install flixel
+          haxelib install flixel
           haxelib run lime setup flixel
           haxelib run lime setup
           haxelib install flixel-tools
-          haxelib install flixel-ui
           haxelib install flixel-addons
-          haxelib install tjson
-          haxelib install hxjsonast
-          haxelib git hxCodec https://github.com/polybiusproxy/hxcodec
-          haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit
+          haxelib install flixel-ui
           haxelib install hscript
-          haxelib git hscript-ex https://github.com/ianharrigan/hscript-ex
+          haxelib install flixel-addons
+          haxelib git faxe https://github.com/uhrobots/faxe
+          haxelib git polymod https://github.com/larsiusprime/polymod.git
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
-          haxelib install hxcpp-debug-server
           haxelib git extension-webm https://github.com/KadeDev/extension-webm
           haxelib run lime rebuild extension-webm windows
-          haxelib install newgrounds
-          haxelib install polymod
+          haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit.git
+          haxelib git hxvm-luajit https://github.com/nebulazorua/hxvm-luajit
+          haxelib install actuate
           haxelib list
+      - name: Build
         shell: cmd
-      - name: Create Version Tag
-        run: echo "${{github.run_id}}" > VERSION
-      - name: Compile
-        run: haxelib run lime build windows --app-version="4.0.0-${{ github.run_id}}"
-      - name: Publish Artifact
-        uses: actions/upload-artifact@main
+        run: haxelib run lime build windows
+
+      - uses: actions/upload-artifact@v4
         with:
           name: windowsBuild
           path: export/release/windows/bin
