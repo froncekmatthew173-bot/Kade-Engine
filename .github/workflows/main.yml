@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Windows Build CI
+name: Build
 
 # Controls when the workflow will run
 on:
@@ -71,7 +71,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
-      - uses: krdlab/setup-haxe@v2
+      - uses: krdlab/setup-haxe@main
         with:
           haxe-version: 4.1.5
       # Runs a set of commands using the runners shell
