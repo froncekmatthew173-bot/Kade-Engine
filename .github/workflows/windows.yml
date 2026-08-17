@@ -3,31 +3,40 @@
 name: Windows Build CI
 
 # Controls when the workflow will run
-on: [push, pull_request]
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
+  buildWindows:
     # The type of runner that the job will run on
     runs-on: windows-latest
-    
+    env:
+      HAXELIB_ROOT: C:\haxelib
+
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-      - uses: krdlab/setup-haxe@v1
+      - uses: actions/checkout@v4
+      - uses: krdlab/setup-haxe@v2
         with:
-          haxe-version: 4.1.5
+          haxe-version: 4.3.7
       # Runs a set of commands using the runners shell
-      - name: script run line haha
+      - name: Install haxelibs
+        shell: cmd
         run: |
-          cinst haxe --version 4.1.5 -y
-          RefreshEnv
-          mkdir "%HAXELIB_ROOT%"
+          if not exist "%HAXELIB_ROOT%" mkdir "%HAXELIB_ROOT%"
           haxelib setup "%HAXELIB_ROOT%"
-          haxelib install lime 8.3.2
-          RefreshEnv
+          haxelib install hxcpp
+          haxelib install lime
           haxelib install openfl
           haxelib install flixel
           haxelib run lime setup flixel
@@ -38,17 +47,19 @@ jobs:
           haxelib install hscript
           haxelib install flixel-addons
           haxelib git faxe https://github.com/uhrobots/faxe
-          haxelib git polymod https://github.com/MasterEric/polymod.git
+          haxelib git polymod https://github.com/larsiusprime/polymod.git
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
           haxelib git extension-webm https://github.com/KadeDev/extension-webm
           haxelib run lime rebuild extension-webm windows
           haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit.git
           haxelib git hxvm-luajit https://github.com/nebulazorua/hxvm-luajit
-          haxelib install actuate 
+          haxelib install actuate
           haxelib list
-          haxelib run lime build windows
-          
-      - uses: actions/upload-artifact@v2
+      - name: Build
+        shell: cmd
+        run: haxelib run lime build windows
+
+      - uses: actions/upload-artifact@v4
         with:
-          name: Windows Build
+          name: windowsBuild
           path: export/release/windows/bin
